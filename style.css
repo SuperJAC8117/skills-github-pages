@@ -1,0 +1,61 @@
+h3 {
+    text-transform: uppercase;
+}
+p {
+    text-align: right;
+    font-family: Arial;
+}
+body {
+    background-image:url("https://media.istockphoto.com/id/1310455312/photo/welding-argon-results-welding-on-the-metal-of-the-foreground.jpg?s=612x612&w=0&k=20&c=Wn3VToZYmGRsPE2by7r3ODy9D_pfgaFv9bWVWfaVtok=");
+    min-height: 600px;
+}
+a {
+    font-size: 16px;
+    font-style: italic;
+}
+iframe {
+    height: 600px;
+    width: 100%;
+}
+header {
+    border-style: solid;
+    background-color: bisque;
+}
+main {
+    height: 80%;
+    width: 70%;
+    background-color: bisque;
+    margin: 15px;
+    padding: 10px;
+}
+footer {
+    background-color: bisque;
+    margin: 50px;
+    padding: 10px;
+}
+.job-title {
+    font-weight: bold;
+    color: maroon;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+img:hover {
+    animation: sizeChange 3s forwards;
+    transition: 1s; // one second is to short
+}
+@keyframes sizeChange {
+    from {
+        height: 200px;
+        width: 200px;
+    }
+    
+    to {
+        height: 400px;
+        width: 400px;
+    }
+}
